@@ -1,0 +1,47 @@
+.request-info {
+  margin-bottom: 10px;
+}
+
+.name, .email {
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.email {
+  color: grey;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.accept-btn, .reject-btn {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.accept-btn {
+  background-color: green;
+  color: white;
+}
+
+.accept-btn:hover {
+  background-color: darkgreen;
+}
+
+.reject-btn {
+  background-color: red;
+  color: white;
+}
+
+.reject-btn:hover {
+  background-color: darkred;
+}

@@ -1,0 +1,51 @@
+/* SearchInput.css */
+form {
+    display: flex;
+    align-items: center; /* Align items in the center vertically */
+    gap: 0.5rem; /* Space between input and button */
+    width: 100%; /* Ensure form takes up the full available width */
+  }
+  
+  .search-input-sidebar {
+    flex-grow: 1; /* Allow input to take up the remaining space */
+    padding: 0.5rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 999px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .search-input-sidebar:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 5px rgba(56, 189, 248, 0.5);
+  }
+  
+  .submit-btn-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem; /* Fixed size for the button */
+    height: 2.5rem;
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .submit-btn-search:hover {
+    background-color: #0284c7;
+    transform: scale(1.1);
+  }
+  
+  .submit-btn-search:active {
+    transform: scale(1);
+  }
+  
+  .submit-btn-search .w-6 {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  

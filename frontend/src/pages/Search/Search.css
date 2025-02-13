@@ -1,0 +1,107 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styling */
+  .search-page {
+    padding: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .search-input {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Results styling */
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .result-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .result-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .user-email {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+  }
+  /* In Search.css */
+
+.home-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
